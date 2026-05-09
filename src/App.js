@@ -3,7 +3,11 @@ import './App.css';
 
 function App() {
   console.log(process.env.REACT_APP_KEY_MSG1);
-  
+  console.log(process.env.REACT_APP_KEY_MSG2);
+  console.log(process.env.REACT_APP_KEY_MSG3);
+  console.log(process.env.REACT_APP_KEY_MSG4);
+  console.log(process.env.REACT_APP_KEY_MSG5);
+
   return (
     <div className="App">
       <header className="App-header">
